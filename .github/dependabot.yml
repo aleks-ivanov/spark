@@ -14,7 +14,7 @@ updates:
 
   - package-ecosystem: "nuget"
     # location of package manifests
-    directory: "/src/csharp/Microsoft.Spark/Microsoft.Spark.csproj"
+    directory: "/src/csharp/Microsoft.Spark/"
     open-pull-requests-limit: 10
     schedule:
       interval: "daily"
