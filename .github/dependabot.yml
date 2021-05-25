@@ -23,5 +23,17 @@ updates:
     #   - assignee_one
     # reviewers:
     #   - reviewer_one
+
+  - package-ecosystem: "maven"
+    # location of package manifests
+    directory: "src/scala/"
+    open-pull-requests-limit: 100
+    schedule:
+      interval: "daily"
+    # target-branch: 'develop'
+    # assignees:
+    #   - assignee_one
+    # reviewers:
+    #   - reviewer_one
     
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
